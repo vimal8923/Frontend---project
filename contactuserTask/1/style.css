@@ -1,0 +1,23 @@
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+ .from-contanier {
+    background: #FFFFFF;
+    border: 2px solid black;
+    width: 80%;
+    height: 50%;
+    padding: 20px;
+   
+}
+label{
+    font-weight: bold;
+    display:block;
+}
+.label :not(:has([type="radio"])){
+    display: none;
+}

@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width: 100%;
+}
+nav{
+    background-color: white;
+    padding: 2vh;
+    font-family:sans-serif ;
+    max-width: 100%;
+    display:flex;
+    margin-top: 1vh;
+    justify-content: space-between;
+    
+}
+nav img{
+    width: 10vw;
+    float: left;
+    margin-right: 20px;
+    margin-top: 1vh;
+   
+    
+}
+.menu-right{
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+    font-size: 1vw;
+    
+   
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+   
+}
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+/* @media only screen and (max-width:800px){
+    span{
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+} */
+ul li button{
+   
+    height: 25px;
+    width: 10vw;
+    background-color: black;
+   
+}
+#fir{
+    color: white;
+}
+
+.artical{
+    max-width: 100%;
+}
+.artical{
+    margin-top: 10vh;
+    width: 100%;
+}
+.section-1{
+    display: flex;
+     width: 100%;
+}
+#part-2{
+    width: 100%;
+}
+#part-2 img{
+    width: 100%;
+  
+  
+}
+#paart-1{
+  
+   background-color:#F4F4F4;
+   text-align: left;
+   justify-content: center;
+  
+
+}
+#paart-1 h1{
+   margin-top: 12vh;
+    width: 35vw;
+    margin-left: 8vw;
+    font-size: 5vw;
+
+}
+#paart-1 p{
+    color: gray;
+    margin-left: 8vw;
+    margin-top: 2vh;
+    font-size: 2vw;
+    
+}
+
+#paart-1 button{
+    height: 8vh;
+    padding: 2px 6px;
+    text-decoration: none;
+    margin-top: 2vh;
+    margin-left: 8vw;
+    background-color: black;
+    align-items: center;
+    font-size: 1.5vw;
+   
+    
+    
+}
+#paart-1 button a{
+    text-decoration: none;
+    color: white;
+  
+}
+
+
+section-2{
+    max-width: 100%;
+}
+.top-panel-section-2{
+    text-align: center;
+    margin-top: 13vh;
+
+}
+.top-panel-section-2 h2{
+    width: 100%;
+    font-size: 4vw;
+}
+.top-panel-section-2 p{
+    color: gray;
+    font-size: 2vw;
+    margin-top: 2vh;
+}
+.bottom-panel{
+    max-width: 100%;
+    display: flex;
+    margin-top: 6vh;
+    padding: 2vh;
+    margin-right: 2vw;
+    align-items: center;
+}
+.bottom-left-panel-section-2 img{
+    height: 60vh;
+    width: 60vw;
+    margin-right: 2vw;
+}
+
+.bottom-right-panel-section-2 p{
+   font-size: 1.5vw;
+   margin: 2vh;
+   color: gray;
+   
+  
+}
+#know-more{
+    align-items: start;
+}
+#know-more  button{
+    height: 5vh;
+    padding: 2px 6px;
+    text-decoration: none;
+    margin-top: 2vh;
+    background-color: black;
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+#know-more  a{
+    text-decoration: none;
+    color: white;
+}
+.section-3{
+    max-width: 100%;
+}
+.top-panel-section-3{
+    text-align: center;
+    margin-top: 13vh;
+    justify-content: center;
+
+}
+.top-panel-section-3 h2{
+    font-size: 4vw;
+    width: 70vw;
+   margin-left: 17vw;
+    
+}
+.top-panel-section-3 #p1{
+    color: gray;
+    font-size: 2vw;
+    margin-top: 2vh;
+    width: 80vw;
+    margin-left: 12vw;
+}
+.data-section-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+
+   
+
+}
+#clients{
+    margin: 3vw;
+    font-size: 2vw;
+    width: 15vw;
+    background-color: rgb(236, 228, 218);
+}
+#Annual-growth{
+    margin: 3vw;
+    font-size: 2vw;
+    background-color: rgb(236, 228, 218);
+    width: 15vw;
+    
+}
+#no-of-project{
+    margin: 3vw;
+    font-size: 2vw;
+    background-color: rgb(236, 228, 218);
+    width: 15vw;
+}
+#positive-rotings{
+    margin: 3vw;
+    font-size: 2vw;
+    background-color: rgb(236, 228, 218);
+    width: 15vw;
+}
+.bottom-left-panel-section-3{
+    width: 100%;
+    text-align: center;
+    margin-top: 5vh;
+}
+.bottom-left-panel-section-3 img{
+  width: 80%;
+}
+.section-4{
+    width: 100%;
+    margin-top: 12vh;
+   
+}
+.top-panel-section-4{
+    width: 100%;
+    text-align: center;
+
+}
+.top-panel-section-4 h2{
+    font-size: 4vw;
+}
+.bottom-top-panel-section-4 img{
+  width: 80%;
+  margin-top: 5vh;
+}
+.section-5{
+    width: 100%;
+    margin-top: 15vh;
+    text-align: center;
+    background-color: #F8F8F8;
+    
+}
+.section-5 h2 {
+    font-size: 4vw;
+    
+}
+.section-5-bottom{
+    display: flex;
+    max-width: 100%;
+    margin-top: 5vh;
+    
+    
+}
+.bottom-left-panel-section-5 {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+    background-color: white;
+}
+
+.bottom-left-panel-section-5 img{
+   width: 30vw; 
+}
+.bottom-left-panel-section-5 h4{
+    width: 30vw; 
+    font-size: 2vw;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottom-left-panel-section-5 p{
+    color: gray;
+    font-size: 1.5vw;
+    width: 30vw; 
+    margin-top: 1vh;
+}
+.bottom-left-panel-section-5 button{
+    width: 8vw;
+    height: 5vh;
+    background-color: black;
+    margin-top: 1vh;
+}
+.bottom-left-panel-section-5 a{
+    font-size: 1.4vw;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.bottom-center-panel-section-5 {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+    background-color: white;
+}
+
+.bottom-center-panel-section-5 img{
+   width: 30vw; 
+}
+.bottom-center-panel-section-5 h4{
+    width: 30vw; 
+    font-size: 2vw;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-center-panel-section-5 p{
+    color: gray;
+    font-size: 1.5vw;
+    width: 30vw; 
+    margin-top: 1vh;
+}
+.bottom-center-panel-section-5 button{
+    width: 8vw;
+    height: 5vh;
+    background-color: black;
+    margin-top: 1vh;
+}
+.bottom-center-panel-section-5 a{
+    font-size: 1.4vw;
+    text-decoration: none;
+    color: white;
+    
+}
+.bottom-right-panel-section-5 {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+    background-color: white;
+}
+
+.bottom-right-panel-section-5 img{
+   width: 30vw; 
+}
+.bottom-right-panel-section-5 h4{
+    width: 30vw; 
+    font-size: 2vw;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-right-panel-section-5 p{
+    color: gray;
+    font-size: 1.5vw;
+    width: 30vw; 
+    margin-top: 1vh;
+}
+
+.discription a{
+    font-size: 2vw;
+    margin-top: 2vh;
+    text-decoration: none;
+    color: black;
+}
+.button-sec-5{
+    margin-top: 5vh;
+    text-align: center;
+    padding: 2px,6px;
+}
+.button-sec-5 button{
+    width: 15vh;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+}
+.section-6{
+    width: 100%;
+    text-align: center;
+    margin-top: 12vh;
+}
+.top-panel-section-6{
+    width: 100%;
+}
+.top-panel-section-6 h2{
+    font-size: 4vw;
+}
+.review{
+    display: flex;
+    width: 100%;
+    gap: 5vw;
+    margin-top: 6vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.bottom-right-panel-section-6 {
+    width: 35vw;
+    text-align: left;
+    margin-left: 10vh;
+    background-color: #F8F8F8;
+}
+.bottom-right-panel-section-6 p{
+   color: gray;
+   font-size: 1vw;
+   width: 25vw;
+}
+.bottom-left-panel-section-6{
+    width: 35vw;
+    text-align: left;
+   margin-right: 8vw;
+   background-color: #F8F8F8;
+}
+.bottom-left-panel-section-6 p{
+    color: gray;
+    font-size: 1vw;
+    width: 25vw;
+ }
+ .h5 h5{
+    font-size: 1.8vw;
+ }
+.section-7{
+    display: flex;
+    width: 100%;
+    margin-top: 15vh;
+    text-align: left;
+    background-color:#F8F8F8;
+ }
+ .bottom-left-panel{
+    width: 100%;
+ }
+ .bottom-left-panel img{
+    width: 70%;
+    margin-left: 5vw;
+   
+ }
+.top-panel-section-7 h3{
+    font-size: 3vw;
+ }
+.container-messege-section-8{
+ margin-top: 5vh;
+
+ }
+.contant-sec-7{
+margin-right: 10vw;
+ }
+ .section-7-h5-p h5{
+    font-size: 2vw;
+    margin: 2vh;
+    background-color: #fff;
+ }
+.sec-7-h3 h5{
+    font-size: 2vw;
+    margin: 2vh;
+    margin-top: 5vh;
+    background-color: #fff;
+ }
+.thir-h3 h5{
+    font-size: 2vw;
+    margin: 2vh;
+    margin-top: 4vh;
+    background-color: #fff;
+}
+ .section-7-h5-p h5 p{
+    font-size: 1vw;
+    color: gray;
+ }
+ .section-9{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    text-align:left;
+    margin-top: 13vh;
+    background-color: black;
+    color: white;
+    margin-left: 10vw;
+    gap: 10vw;
+ }
+ .left-side-section-9 h2{
+    font-size: 3.5vw;
+ }
+ .left-side-section-9  h2 p{
+    font-size: 2vw;
+    color: gray;
+ }
+ .right_side-section-9 button{
+    width: 10vw;
+    height: 4vh;
+    background-color: white;
+ }
+ .right_side-section-9 button a{
+    text-decoration: none;
+    color: black;
+ }
+ .artical{
+    width: 100%;
+    height: 35vh;
+    background-color:#F8F8F8 ;
+  
+    
+    text-align: left;
+ }
+ .footer-detail-section-1{
+    display: flex;
+   
+ }
+ .Heading .fist-foo a{
+   display: block;
+   width: 12vw;
+   text-decoration: none;
+   color: gray;
+   margin-left: 5vw;
+   margin-top: 10px;
+   font-size: 1.5vw;
+ }
+ .fist-foo {
+    margin: 2vw;
+   
+ }
+ .fist-foo h5{
+    margin-top: 8vh;
+    margin-left: 5vw;
+    font-size: 2vw;
+ }
+ .Heading .sec-foo a{
+    display: block;
+    width: 12vw;
+    text-decoration: none;
+   color: gray;
+   margin-top: 10px;
+   font-size: 1.5vw;
+}
+.sec-foo {
+    margin: 2vw;
+   
+ }
+ .sec-foo h5{
+    margin-top: 8vh;
+    font-size: 2vw;
+
+ }
+.Heading .thir-foo a{
+    display: block;
+    width: 12vw;
+    text-decoration: none;
+    color: gray;
+    margin-top: 10px;
+    font-size: 1.5vw;
+}
+.thir-foo  {
+    margin: 2vw;
+   
+ }
+.thir-foo  h5{
+    margin-top: 8vh;
+    font-size: 2vw;
+
+ }
+.connect-us-foo{
+ display: block;
+}
+.detail-contant-footer{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.detail-contant-footer p{
+ color: gray;
+ width: 20vw;
+ font-size: 1.5vw;
+}
+.connect-us-foo{
+    margin-top: 8vh;
+}
+.connect-us-foo h5{
+    font-size: 2vw;
+}
+.connect-us-foo img{
+    margin-top: 2vh;
+    width: 15vw;
+}

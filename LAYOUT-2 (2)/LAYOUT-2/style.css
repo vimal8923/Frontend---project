@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px 50px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.register-button a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.register-button{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 10px;
+    
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, p {
+    margin: 10px 0;
+}
+
+/* Panel Work */
+.panel-work {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+/* Client Logos */
+.images-clients ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+/* About Manage Section */
+.about-manage {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about-manage div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about-manage {
+        flex-direction: column;
+    }
+}
+
+/* Color Styles */
+.upper, h2, h3, #upper-heading {
+    color: #4D4D4D;
+}
+
+.lower, #lower-heading, #local-word {
+    color: #4CAF4F;
+}
+
+p, .bottom-right-panel {
+    color: #717171;
+}
+
+.some-requrement h3 {
+    color: #263238;
+    font-weight: 900;
+}

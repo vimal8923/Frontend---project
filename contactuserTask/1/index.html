@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="from-contanier">
+    <form>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Say something to start a live chat!</p>
+            <div>
+                📞 +1012 3456 789
+            </div>
+            <div>
+                ✉️ demo@gmail.com
+            </div>
+            <div>
+                📍 132 Dartmouth Street Boston, Massachusetts 02156 United States
+            </div>
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name">
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name">
+
+        <label for="email">Email</label>
+        <input type="email" class="email" id="email">
+
+        <label for="contact">Phone Number</label>
+        <input type="tel" class="content" id="contact" pattern="[6-9][0-9]{9}">
+
+        <h2>Select Subject?</h2>
+        <input type="radio" id="one" name="General Inquiry" value="One">
+        <label for="one">General Inquiry</label>
+        <input type="radio" id="General Inquiry" name="General Inquiry" value="two">
+        <label for="General Inquiry">General Inquiry</label>
+        <input type="radio" id="three" name="General Inquiry" value="Three">
+        <label for="three">General Inquiry</label>
+        <input type="radio" id="four" name="General Inquiry" value="Four">
+        <label for="four">General Inquiry</label>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+</div>
+</body>
+
+</html>

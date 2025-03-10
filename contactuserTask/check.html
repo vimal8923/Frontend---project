@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <div class="logo">Logo Here</div>
+                <div class="top-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="https://www.academy.indixpert.com/">About</a></li>
+                <li><a href="#">Contact us</a></li>
+            </div>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="container">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Say something to start a live chat!</p>
+            <div>
+                <a href="tel:+10123456789">📞 +1012 3456 789</a>
+            </div>
+            <div>
+                <a href="mailto:vimalshahi2003@gmail.com">✉️ vimalshahi2003@gmail.com</a>
+            </div>
+            <div>
+                <address>📍 132 Dartmouth Street, Boston, Massachusetts 02156, United States</address>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="submit_form.php" method="POST">
+                <label>First Name</label>
+                <input type="text" name="first_name" placeholder="John" required>
+
+                <label>Last Name</label>
+                <input type="text" name="last_name" placeholder="Doe" required>
+
+                <label>Email</label>
+                <input type="email" name="email" placeholder="example@mail.com" required>
+
+                <label>Phone Number</label>
+                <input type="text" value="+1012 3456 789" disabled>
+
+                <label>Select Subject</label>
+                <div class="subject">
+                    <input type="radio" name="subject" value="General Inquiry" checked> General Inquiry
+                    <input type="radio" name="subject" value="Technical Support"> Technical Support
+                    <input type="radio" name="subject" value="Billing"> Billing
+                    <input type="radio" name="subject" value="Other"> Other
+                </div>
+
+                <label>Message</label>
+                <textarea name="message" placeholder="Write your message..." required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
